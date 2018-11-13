@@ -1,0 +1,78 @@
+/* CSS files add styling rules to your content */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+div, section, nav
+{
+  border: 1px solid black;
+  margin-top: 40px;
+  box-sizing: border-box;
+}
+
+nav
+{
+  margin: 0;
+  width: 100%;
+  height: 50px;
+  top: 0;
+  position: fixed;
+}
+
+section
+{
+  border: 0px;
+  width: 100%;
+  text-align: center;
+}
+
+div#d0
+{
+  padding: 20px;
+}
+
+div#d1
+{
+  margin: 0px;
+}
+
+div#d1, div#d9, div#d10
+{
+  width: 100%;
+  height: 100px;
+}
+
+div#d2, div#d3, div#d4
+{
+  width: 30%;
+  height: 100px;
+  margin-top: 0px;
+  display: inline-block;
+}
+
+div#d3, div#d4
+{
+  margin-left: 40px;
+}
+
+div#d5
+{
+  width: 100%;
+  height: 150px;
+  padding: 50px;
+  margin: 0px;
+}
+
+div#d6, div#d7, div#d8
+{
+  width: 31%;
+  height: 50px;
+  margin-top: 0px;
+  display: inline-block;
+}
+
+div#d7, div#d8
+{
+  margin-left: 30px;
+}
